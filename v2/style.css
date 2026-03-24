@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&family=DM+Sans:wght@300;400;500&display=swap');
 
 * {
   box-sizing: border-box;
@@ -17,6 +17,9 @@
   --paper-dark-text: #c8a882;
   --paper-dark-subtle: #6a5848;
   --soft: #ede6da;
+  --font-serif: 'Source Serif 4', Georgia, serif;
+  --font-display: 'Playfair Display', serif;
+  --font-sans: 'DM Sans', sans-serif;
 }
 
 html, body {
@@ -24,7 +27,7 @@ html, body {
 }
 
 body {
-  font-family: 'DM Sans', sans-serif;
+  font-family: var(--font-serif);
   background: var(--bg);
   color: var(--text);
 }
@@ -50,7 +53,7 @@ a {
 }
 
 .logo a {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-display);
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.22em;
@@ -114,7 +117,7 @@ a {
 }
 
 .spine-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-display);
   font-size: 16px;
   line-height: 1.55;
   color: var(--paper-dark-text);
@@ -199,7 +202,7 @@ a {
 }
 
 .cover-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-display);
   font-size: 44px;
   font-weight: 700;
   line-height: 1.12;
@@ -286,7 +289,7 @@ a {
 }
 
 .col-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-display);
   font-size: 17px;
   font-weight: 700;
   line-height: 1.35;
@@ -347,7 +350,7 @@ a {
 }
 
 .frag-name {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-display);
   font-size: 12px;
   line-height: 1.45;
   color: var(--text);
@@ -370,7 +373,7 @@ a {
 }
 
 .footer-logo {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-display);
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -399,7 +402,7 @@ a {
 }
 
 .article-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-display);
   font-size: 46px;
   line-height: 1.14;
   margin-bottom: 22px;
