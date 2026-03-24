@@ -78,6 +78,16 @@
   color: #a09080;
 }
 
+.book-lead {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  line-height: 1.5;
+  color: #807060;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px solid #3a2e28;
+}
+
 .spine-divider {
   flex: 1;
 }
