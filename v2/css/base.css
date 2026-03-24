@@ -162,3 +162,63 @@ a {
     white-space: nowrap;
   }
 }
+
+/* article common styles (used by multiple pages) */
+.article-shell {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+.article-kicker {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.article-title {
+  font-family: var(--font-display);
+  font-size: 46px;
+  line-height: 1.14;
+  margin-bottom: 22px;
+}
+
+.article-title em {
+  font-style: italic;
+  font-weight: 400;
+  color: #9a7858;
+}
+
+.article-meta {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #8f8071;
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #d8cec2;
+}
+
+.article-lead {
+  font-size: 18px;
+  line-height: 1.95;
+  color: #4e443d;
+  margin-bottom: 28px;
+}
+
+/* responsive article */
+@media (max-width: 640px) {
+  .article-shell {
+    padding: 36px 20px 64px;
+  }
+
+  .article-title {
+    font-size: 32px;
+  }
+
+  .article-lead {
+    font-size: 16px;
+  }
+}
