@@ -207,8 +207,9 @@
   }
 
   .fragments-deck {
-    font-size: 13px;
-    line-height: 1.85;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #8f8071;
   }
 
   .masonry-title {
