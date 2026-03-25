@@ -1,18 +1,18 @@
-/* design article */
+/* article-long.css - 长文章通用样式 */
 
-.design-article-shell {
-  max-width: 880px;
+.article-shell {
+  max-width: 860px;
   margin: 0 auto;
   padding: 56px 24px 84px;
 }
 
-.design-article-header {
+.article-header {
   padding-bottom: 30px;
   border-bottom: 1px solid #d8cec2;
   margin-bottom: 28px;
 }
 
-.design-article-kicker {
+.article-kicker {
   font-family: var(--font-sans);
   font-size: 10px;
   letter-spacing: 0.22em;
@@ -21,7 +21,7 @@
   margin-bottom: 14px;
 }
 
-.design-article-title {
+.article-title {
   font-family: 'Playfair Display', serif;
   font-size: 52px;
   line-height: 1.08;
@@ -30,7 +30,16 @@
   max-width: 12ch;
 }
 
-.design-article-deck {
+.article-title em {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.article-title em.highlight {
+  color: #9a7858;
+}
+
+.article-deck {
   max-width: 620px;
   font-size: 18px;
   line-height: 1.85;
@@ -38,7 +47,7 @@
   margin-bottom: 18px;
 }
 
-.design-article-meta {
+.article-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 14px 18px;
@@ -48,25 +57,21 @@
   color: #a59688;
 }
 
-.design-article-body {
-  max-width: 720px;
-}
-
-.design-article-body p {
+.article-body p {
   font-size: 17px;
   line-height: 2;
   color: #403833;
   margin-bottom: 1.2em;
 }
 
-.design-lead {
+.article-lead {
   font-size: 21px !important;
   line-height: 1.9 !important;
   color: #7a6a5a !important;
   margin-bottom: 1.4em !important;
 }
 
-.design-pullquote {
+.pullquote {
   margin: 36px 0;
   padding: 18px 0 18px 22px;
   border-left: 2px solid #c96442;
@@ -76,13 +81,13 @@
   color: #a59688;
 }
 
-.design-citation-section {
+.citation-section {
   margin-top: 44px;
   padding-top: 20px;
   border-top: 1px solid #d8cec2;
 }
 
-.design-citation-label {
+.citation-label {
   font-family: var(--font-sans);
   font-size: 10px;
   letter-spacing: 0.22em;
@@ -91,55 +96,55 @@
   margin-bottom: 14px;
 }
 
-.design-citation-list {
+.citation-list {
   padding-left: 18px;
 }
 
-.design-citation-list li {
+.citation-list li {
   font-size: 13px;
   line-height: 1.9;
   color: #9a8a78;
   margin-bottom: 8px;
 }
 
-.design-citation-list li a {
+.citation-list li a {
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s ease;
 }
 
-.design-citation-list li a:hover {
+.citation-list li a:hover {
   border-bottom-color: var(--accent);
 }
 
-.design-citation-list li em {
+.citation-list li em {
   font-style: italic;
 }
 
 @media (max-width: 640px) {
-  .design-article-shell {
+  .article-shell {
     padding: 38px 20px 64px;
   }
 
-  .design-article-title {
+  .article-title {
     font-size: 34px;
     max-width: none;
   }
 
-  .design-article-deck {
+  .article-deck {
     font-size: 16px;
   }
 
-  .design-article-body p {
+  .article-body p {
     font-size: 15px;
   }
 
-  .design-lead {
+  .article-lead {
     font-size: 18px !important;
   }
 
-  .design-pullquote {
+  .pullquote {
     font-size: 22px;
     padding-left: 16px;
   }
