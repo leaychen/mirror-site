@@ -7,8 +7,8 @@
 }
 
 .article-header {
-  padding-bottom: 24px;
-  margin-bottom: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .article-kicker {
@@ -52,6 +52,8 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #a59688;
+  padding-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .article-body p {
