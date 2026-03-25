@@ -58,25 +58,25 @@
 }
 
 .article-body p {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 2;
   color: #403833;
   margin-bottom: 1.2em;
 }
 
 .article-lead {
-  font-size: 21px !important;
+  font-size: 18px !important;
   line-height: 1.9 !important;
   color: #7a6a5a !important;
   margin-bottom: 1.4em !important;
 }
 
 .pullquote {
-  margin: 36px 0;
-  padding: 18px 0 18px 22px;
+  margin: 28px 0;
+  padding: 12px 0 12px 22px;
   border-left: 2px solid #c96442;
   font-family: 'Playfair Display', serif;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.5;
   color: #a59688;
 }
@@ -141,11 +141,11 @@
   }
 
   .article-lead {
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
   .pullquote {
-    font-size: 22px;
+    font-size: 20px;
     padding-left: 16px;
   }
 }
