@@ -134,13 +134,18 @@
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--accent);
+}
+
+.masonry-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
   margin-bottom: 12px;
 }
 
 .masonry-date {
-  float: right;
   font-size: 10px;
-  color: #b0a090;
+  color: #d0c8bc;
 }
 
 .masonry-title {
