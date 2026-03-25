@@ -194,3 +194,28 @@
 .archive-cta-link:hover {
   color: #a84e32;
 }
+
+/* Mobile Responsive */
+@media (max-width: 640px) {
+  .fragments-shell {
+    padding: 38px 20px 64px;
+  }
+
+  .fragments-title {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .fragments-deck {
+    font-size: 13px;
+    line-height: 1.85;
+  }
+
+  .masonry-title {
+    font-size: 20px;
+  }
+
+  .masonry-excerpt {
+    font-size: 12px;
+  }
+}
