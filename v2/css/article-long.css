@@ -105,10 +105,15 @@
 }
 
 .citation-list li a {
-  color: #9a7858;
+  color: #9a8a78;
   text-decoration: none;
   border-bottom: 1px solid transparent;
-  transition: border-color 0.15s ease;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.citation-list li a:hover {
+  color: #9a7858;
+  border-bottom-color: #9a7858;
 }
 
 .citation-list li a:hover {
